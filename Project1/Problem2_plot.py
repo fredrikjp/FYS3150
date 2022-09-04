@@ -1,10 +1,16 @@
 import pyarma as pa
 import matplotlib.pyplot as plt
 
-u = pa.mat()
-x = pa.mat()
-u.load("u.bin")
-x.load("x.bin")
+with open("x_u(x).txt") as f:
+    x = []
+    u = []
+    i = 0
+    for line in f.readlines():
+        x.append(float(line.split()[0]))
+        u.append(float(line.split()[1]))
+        i += 1
+    f.close()
+
 
 plt.plot(x,u)
 plt.title("u(x)")
