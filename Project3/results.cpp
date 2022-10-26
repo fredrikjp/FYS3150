@@ -1,10 +1,7 @@
 #include "include/Particle.hpp"
 #include "include/PenningTrap.hpp"
-#include <iostream>
-#include <ostream>
 
 int main() {
-  /*
     PenningTrap obj1 = PenningTrap(9.65 * pow(10, 1), 2.41 * pow(10, 6), 500.);
     PenningTrap obj2 = PenningTrap(9.65 * pow(10, 1), 2.41 * pow(10, 6), 500.);
     PenningTrap obj3 = PenningTrap(9.65 * pow(10, 1), 2.41 * pow(10, 6), 500.);
@@ -85,9 +82,8 @@ int main() {
 
     obj11.simulation(50./32000, 32000, "Forward Euler");
     obj11.write_to_file("P1_FE_t50_n32000.txt");
-    */
 
-  arma::arma_rng::set_seed(0);
+arma::arma_rng::set_seed(0);
 int n = 116;
 arma::vec w = arma::linspace(0.2, 2.5, n);
 arma::vec f = arma::vec("0.1 0.4 0.7");

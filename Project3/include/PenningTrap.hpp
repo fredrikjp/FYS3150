@@ -1,10 +1,10 @@
 #include "Particle.hpp"
 #include <armadillo>
 #include <iostream>
-#include <iostream>
 #include <string>
 #include <fstream>
 #include <iomanip>
+#include <math.h>
 
 class PenningTrap {
 private:

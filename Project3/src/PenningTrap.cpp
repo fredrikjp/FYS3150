@@ -1,11 +1,4 @@
 #include "../include/PenningTrap.hpp"
-#include <algorithm>
-#include <functional>
-#include <iostream>
-#include <iterator>
-#include <math.h>
-#include <ostream>
-#include <string>
 
 // Constructor
 PenningTrap::PenningTrap(double B0_in, double V0_in, double d_in) {
