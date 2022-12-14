@@ -2,7 +2,7 @@
 
 ##Run
 
-C++ compilation and linking: g++ -O2 filename.cpp src/*.cpp -fopenmp -I include -o filename -larmadillo
+C++ compilation and linking: g++ -O2 filename.cpp src/*.cpp -I include -o filename -larmadillo
 
 C++ run: ./filename
 
